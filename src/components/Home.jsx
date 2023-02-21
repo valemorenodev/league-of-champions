@@ -35,7 +35,10 @@ const Home = () => {
                 <div className="card criptoCard" >
                   <div className="card-body">
                     <h5 className="card-title">{champ.champion}</h5>
-                    <p className="card-text">Rank: {champ.createdAt}</p>
+                    <p className="card-text">Fecha de lanzamiento: {champ.release_date}</p>
+                    <img src={champ.img} alt="" />
+                    <p>Region: {champ.origen}</p>
+                    <p>Fuente de poder: {champ.resource}</p>
                   </div>
                 </div>
               </div>
